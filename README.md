@@ -1,5 +1,5 @@
 # docker-image-tika-test
-Test docker image for tika support the filesystem strategy
+Test docker image for tika support the filesystem strategy. Based on the official [Apache Tika Image](https://github.com/apache/tika-docker)
 
 ## Usage
 You can request the file either via header or via get parameters. If you use the get parameter you should URL encode the value.
