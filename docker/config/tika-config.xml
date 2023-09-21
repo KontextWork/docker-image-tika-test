@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+    <fetchers>
+        <fetcher class="org.apache.tika.pipes.fetcher.fs.FileSystemFetcher">
+            <params>
+                <name>fsf</name>
+                <!-- This will be /mnt/data in production -->
+                <basePath>/files</basePath>
+            </params>
+        </fetcher>
+    </fetchers>
+    <server>
+        <params>
+            <enableUnsecureFeatures>true</enableUnsecureFeatures>
+        </params>
+    </server>
+</properties>
